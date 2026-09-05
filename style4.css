@@ -1,0 +1,471 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+nav {
+    width: 60vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 2%;
+    justify-self: center;
+
+}
+
+#id_box_1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#id_box_1>p {
+    color: white;
+    font-family: serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
+
+#id_box_2 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#img_1 {
+    width: 3%;
+    height: 25%;
+}
+
+#img_2 {
+    width: 24px;
+    height: 24px;
+
+}
+
+#img_3 {
+    width: 3%;
+    height: 25%;
+}
+
+#section_1 {
+    width: 100vw;
+    height: 18vw;
+    display: flex;
+    position: absolute;
+    top: 17%;
+    justify-content: space-evenly;
+    align-items: start;
+
+}
+
+.class_box_2 {
+    width: 250px;
+    height: 320px;
+    background-color: #0C0C0C;
+    border-radius: 15px;
+}
+
+#id_box_3 {
+    border: 1px solid rgb(219, 108, 28);
+    box-shadow: 0px 12px 24px 0px rgba(255, 0, 0, 0.5);
+}
+
+#id_box_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+#section_2 {
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    position: absolute;
+    top: 59%;
+    /* /border: 2PX solid rgb(23, 214, 182); */
+    justify-content: space-evenly;
+
+
+}
+
+.class_box_3 {
+    width: 1000px;
+    height: 250px;
+    background-color: #0C0C0C;
+    border-radius: 15px;
+    position: absolute;
+    top: 5%;
+    border: 1px solid rgb(219, 108, 28);
+}
+
+hr {
+    border: 3px solid rgb(219, 108, 28);
+    height: 3px;
+    background-color: #db6c1c;
+}
+
+#child_box_3a {
+
+    width: 110px;
+    height: 30px;
+    display: flex;
+    border: 2px solid #db6c1c;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -22%;
+    top: -1%;
+    gap: 3px;
+}
+
+#child_box_3a>img {
+    width: 18px;
+    height: 18px;
+}
+
+#child_box_3a>p {
+    color: #db6c1c;
+    font-family: serif;
+}
+
+#id_box_3>img {
+    width: 130px;
+    height: 180px;
+    position: relative;
+    left: 10%;
+}
+
+#Child_box_3b {
+    color: white;
+    font-family: serif;
+    font-size: 15px;
+
+}
+
+#Child_box_3c {
+    color: white;
+    font-family: serif;
+    font-size: 10px;
+
+}
+
+#Child_box_3d {
+    color: #db6c1c;
+}
+
+#Child_box_3e {
+    color: #db6c1c;
+    font-family: serif;
+    font-size: 15px;
+}
+
+#id_box_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#id_box_4>img {
+    width: 155px;
+    height: 205px;
+    position: relative;
+    left: 3%;
+}
+
+#Child_box_4b {
+    color: white;
+    font-family: serif;
+    font-size: 15px;
+
+}
+
+#Child_box_4c {
+    color: white;
+    font-family: serif;
+    font-size: 10px;
+
+}
+
+#Child_box_4d {
+    color: #db6c1c;
+}
+
+#Child_box_4e {
+    color: #db6c1c;
+    font-family: serif;
+    font-size: 15px;
+}
+
+#id_box_5 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#id_box_5>img {
+    width: 120px;
+    height: 180px;
+    position: relative;
+    left: 3%;
+}
+
+#Child_box_5b {
+    color: white;
+    font-family: serif;
+    font-size: 15px;
+
+
+}
+
+#Child_box_5c {
+    color: white;
+    font-family: serif;
+    font-size: 10px;
+
+}
+
+#Child_box_5d {
+    color: #db6c1c;
+}
+
+#Child_box_5e {
+    color: #db6c1c;
+    font-family: serif;
+    font-size: 15px;
+}
+
+#id_box_6 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#id_box_6>img {
+    width: 155px;
+    height: 205px;
+    position: relative;
+    left: 3%;
+}
+
+#Child_box_6b {
+    color: white;
+    font-family: serif;
+    font-size: 15px;
+
+}
+
+#Child_box_6c {
+    color: white;
+    font-family: serif;
+    font-size: 10px;
+
+}
+
+#Child_box_6d {
+    color: #db6c1c;
+}
+
+#Child_box_6e {
+    color: #db6c1c;
+    font-family: serif;
+    font-size: 15px;
+}
+
+#child_box_6a {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    border: 2px solid #db6c1c;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -25%;
+    top: 12%;
+
+}
+
+#child_box_6a>img {
+    width: 24px;
+    height: 24px;
+}
+
+#child_box_6a>p {
+    color: white;
+}
+
+#id_box_7 {
+    width: 30%;
+    height: 100%;
+}
+
+#id_box_img1 {
+    width: 220px;
+    height: 220px;
+    transform: rotateX(45deg);
+    transform: rotateY('45');
+    z-index: 0;
+    position: relative;
+    top: 15%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+#id_box_img2 {
+    width: 220px;
+    height: 220px;
+    position: relative;
+    top: -108%;
+    z-index: 10;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+#id_box_8 {
+    display: flex;
+
+}
+
+#id_box_9 {
+    width: 70%;
+    height: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    left: 5%;
+    top: -1%;
+
+}
+
+#id_box_9>p {
+    color: white;
+    font-family: serif;
+    opacity: 40%;
+
+}
+
+#id_box_9>h2 {
+    color: white;
+    font-family: serif;
+    font-size: 2rem;
+}
+
+#id_box_9>button {
+    width: 200px;
+    min-height: 40px;
+    border: 2px solid #db6c1c;
+    background-color: #0C0C0C;
+    border-radius: 15px;
+    color: #db6c1c;
+    position: relative;
+    top: 2%;
+    cursor: pointer;
+}
+
+#id_hr {
+    border: none;
+    /* Removes the default gray browser border */
+    height: 1px;
+    /* Sets the thickness of the line */
+    background-color: #db6c1c;
+    position: relative;
+    top: 94%;
+    /* Sets the color (Accepts names, hex, or rgb) */
+}
+
+footer {
+    width: 100%;
+    height: 5%;
+    position: relative;
+    top: 94%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#id_box_10 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+ul>li {
+    color: white;
+}
+
+ul li::marker {
+    color: #db6c1c;
+
+}
+
+#id_box_11 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#id_box_12 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#id_box_12>p {
+    color: white;
+    font-family: serif;
+}
+
+.button_class_2 {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1PX SOLID #db6c1c;
+    background-color: black;
+}

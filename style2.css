@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+
+header{
+    width: 100vh;
+    height: 20vh;
+}
+
+nav{
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    
+}
+
+#nav_box1{
+    width: 20vw;
+    height: 10vh;
+    
+}
+
+#nav_box2{
+    width: 60vw;
+    height: 10vh;
+    
+}
+
+#nav_box3{
+    width: 20vw;
+    height: 10vh;
+   
+}
+
+#nav_box1>img{
+    rotate: 10deg;
+}
+
+
+#nav_box1>p{
+    font-size: 25px;
+    color: white;
+    align-self: center;  
+    font-family: sans-serif;
+}
+
+#nav_box1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    column-gap: 0px;   
+}
+
+#nav_box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    
+}
+
+#nav_box2>p{
+    color: white;
+    font-family: sans-serif;
+}
+
+#nav_box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav_box3>button{
+    color: white;
+    background-color: #121212;
+    border: #000000;
+    width: 125px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#top{
+    width: 100vw;
+    height: 25vh;
+    position: absolute;
+    top: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#top>h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 8rem;
+}
+
+#center{
+    width: 100vw;
+    height: 8vh;
+    position: absolute;
+    top: 37vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.inner_center_section{
+    width: 110px;
+    height: 50px;
+    background-color: #141414;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#b1{
+    background-color: #FC4609;
+    width: 90px;
+    height: 50px;
+}
+
+
+.Bottom_class{
+    display: flex;
+    width: 100vw;
+    height: 55vh;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 45vh;
+    gap: 20px;
+}
+
+#bottom_left{
+    width: 350px;
+    height: 400px;
+    background-color: #141414 ;
+    border-radius: 15px;
+}
+
+#bottom_center{
+    width: 350px;
+    height: 400px;
+    background-color: #141414 ;
+    border-radius: 15px;
+}
+
+#bottom_right{
+    width: 350px;
+    height: 400px;
+    background-color: #141414 ;
+    border-radius: 15px;
+}
+
+#inner_bottom_left{
+    width: 350px;
+    height: 250px;
+    background-image: url(./Wine\ Image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+
+}
+
+#inner_bottom_center{
+    width: 350px;
+    height: 250px;
+    background-image: url(./Chair.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+
+}
+
+#inner_bottom_right{
+    width: 350px;
+    height: 250px;
+    background-image: url(./Cat.png);
+    background-size: 175% 210%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+
+}
+
+#inner_box1{
+    width: 80px;
+    height: 30px;
+    background-color: #511B09;
+    border-radius: 15px;
+    position: absolute;
+    top: 67%;
+    left: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#inner_box2{
+    width: 80px;
+    height: 30px;
+    background-color: #511B09;
+    position: absolute;
+    top: 67%;
+    left: 41%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner_box3{
+    width: 100px;
+    height: 30px;
+    background-color: #511B09;
+    position: absolute;
+    top: 67%;
+    left: 63%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner_box1>p,#inner_box2>p,#inner_box3>p{
+    color: #DF8A5F;
+    font-family: sans-serif;
+    
+}
+
+#id1,#id2,#id3,#id4,#id5,#id6{
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 80%;
+    
+}
+
+#id2,#id4,#id6{
+    position: absolute;
+    top: 91%;
+    color: #636363;
+}
+
+#id1{
+    position: absolute;
+    left: 19%;
+    top: 78%;
+    font-size: 20px;
+}
+#id2{
+    position: absolute;
+    left: 19%;
+}
+#id3{
+    position: absolute;
+    left: 41%;
+    top: 78%;
+    font-size: 20px;
+}
+#id4{
+    position: absolute;
+    left: 41%;
+}
+#id5{
+    position: absolute;
+    left: 63%;
+    top: 78%;
+    font-size: 20px;
+}
+#id6{
+    position: absolute;
+    left: 63%;
+}
