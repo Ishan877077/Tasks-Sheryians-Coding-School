@@ -1,0 +1,291 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(250, 246, 246);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'last suriken';
+    src: url(./the-last-shuriken.regular.ttf);
+}
+
+@font-face {
+    font-family: 'akumaru';
+    src: url(./akumaru.personal-use\ \(6\).otf);
+}
+
+nav {
+    width: 100%;
+    height: 8vh;
+    /* border: 2px solid green; */
+    display: flex;
+    z-index: 20;
+}
+
+#nav_id_1 {
+    width: 33.33%;
+    height: 100%;
+    /* border: 2px solid peru; */
+    z-index: 20;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    right: 10%;
+}
+
+#nav_id_2 {
+    width: 33.33%;
+    height: 100%;
+    /* border: 2px solid rgb(9, 100, 85); */
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#nav_id_3 {
+    width: 33.33%;
+    height: 100%;
+    /* border: 2px solid rgb(17, 161, 51); */
+    z-index: 20;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    left: 12%;
+}
+
+#nav_id_1>img {
+    width: 250px;
+    height: 90px;
+}
+
+#arrow_div_1>img {
+    width: 100px;
+    height: 80px;
+    z-index: 5;
+    position: absolute;
+    left: 35.5%;
+    top: -4%;
+    rotate: 180deg;
+}
+
+#nav_id_2>p {
+    color: white;
+    font-family: serif;
+    z-index: 10;
+    position: relative;
+    left: 5%;
+}
+
+#arrow_div_2>img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 55.7%;
+    top: 2.8%;
+}
+
+#arrow_div_3>img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 62.5%;
+    top: 2.8%;
+}
+
+#inner_nav_3_id1>img {
+    width: 30px;
+    height: 30px;
+
+}
+
+#inner_nav_3_id2>img {
+    width: 30px;
+    height: 30px;
+
+}
+
+#inner_nav_3_id3>img {
+    width: 30px;
+    height: 30px;
+
+}
+
+
+
+
+#section_id_1 {
+    width: 100%;
+    height: 60vh;
+    z-index: 0;
+}
+
+#main_image_id_1 {
+    width: 100%;
+    height: 70%;
+    clip-path: ellipse(100% 100% at 50% 0%);
+    background-color: purple;
+    position: absolute;
+    top: 0%;
+    z-index: 10;
+    background-image: url(./Background\ upper\ T3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(2px);
+}
+
+#section_id_2 {
+    width: 100%;
+    height: 40vh;
+}
+
+#main_image_id_2 {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(3, 80, 81);
+    position: absolute;
+    top: 50%;
+    z-index: 8;
+    background-image: url(./Background\ Lower\ T3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#section_id_3 {
+    width: 700px;
+    height: 500px;
+    /* border: 2px solid chocolate; */
+    position: absolute;
+    top: 7.5%;
+    left: 29%;
+    z-index: 20;
+}
+
+#inner_section_3_id_1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(./Main\ Image\ T3.png);
+    background-position: -25px 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#inner_section_3_id_2 {
+    width: 300px;
+    height: 180px;
+    background-image: url(./Button\ main\ T3.png);
+    background-position: center;
+    background-size: 250px 120px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    background-blend-mode: lighten;
+    position: absolute;
+    top: 43%;
+    left: 30%;
+}
+
+#inner_section_3_id_2>p {
+    font-family: 'akumaru';
+    font-size: 1.5rem;
+}
+
+#Middle_para_1 {
+    font-size: 1.5rem;
+    color: white;
+    font-family: serif;
+    position: absolute;
+    top: 15%;
+    left: -5%;
+}
+
+#Middle_para_2 {
+    font-size: 4rem;
+    color: white;
+    font-family: 'last suriken';
+    position: absolute;
+    top: 22%;
+    left: -5%;
+    letter-spacing: 1.5px;
+}
+
+#Middle_para_3 {
+    font-size: 4rem;
+    color: white;
+    font-family: 'last suriken';
+    position: absolute;
+    top: 22%;
+    left: 65%;
+    letter-spacing: 1.5px;
+}
+
+#Middle_para_4 {
+    font-size: 1.5rem;
+    color: white;
+    font-family: serif;
+    position: absolute;
+    top: 33%;
+    left: 70%;
+}
+
+#section_id_4 {
+    width: 90%;
+    height: 230px;
+    /* border: 2PX solid brown; */
+    z-index: 30;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+#section_id_4>b>p {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'akumaru';
+    position: relative;
+    top: 3%;
+    left: 46%;
+    letter-spacing: 1.5px;
+}
+
+#inner_section_4_id_1>img {
+    width: 70%;
+    height: 250px;
+    position: absolute;
+    top: -20%;
+    left: 15%;
+    z-index: 20;
+}
+
+#inner_section_4_id_2>p{
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    text-align: justify;
+
+}
+
+#inner_section_4_id_3>p {
+    color: white;
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    text-align: justify;
+
+}
