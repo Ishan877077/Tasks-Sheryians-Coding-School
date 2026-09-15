@@ -304,26 +304,36 @@ footer {
     justify-items: center;
 }
 
-#footer_child_id_11 {
+#footer_child_id_11>img {
     background-image: url(./Image\ 1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
 
 }
 
 
-#footer_child_id_12 {
+#footer_child_id_12>img {
     background-image: url(./Image\ 2.jpg);
     background-position: center;
     background-size: 400px 350px;
     background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;  
 
 }
 
-#footer_child_id_13 {
+#footer_child_id_13>img{
     background-image: url(./Image\ 3.jpg);
     background-position: center;
     background-size: 400px 200px;
     background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+
 }
